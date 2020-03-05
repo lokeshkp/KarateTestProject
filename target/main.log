@@ -1,0 +1,240 @@
+12:19:31.333 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:19:32.099 request:
+1 > GET https://reqres.in/api/users/6
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_121)
+
+12:19:32.542 response time in milliseconds: 441.20
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 2976
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 56f1e6ab1e39c32c-SIN
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 05 Mar 2020 06:50:08 GMT
+1 < Etag: W/"a8-2etvg2pgu00w1ycpQpN4VMA5Yow"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d49bfe3c1ebb796a8fe6272312917ef401583391008; expires=Sat, 04-Apr-20 06:50:08 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"data":{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}}
+
+12:19:32.692 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:19:32.707 request:
+1 > GET https://reqres.in/api/users/6
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_121)
+
+12:19:32.865 response time in milliseconds: 156.98
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 2976
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 56f1e6ad7ceacc28-SIN
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 05 Mar 2020 06:50:08 GMT
+1 < Etag: W/"a8-2etvg2pgu00w1ycpQpN4VMA5Yow"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d35ba0e8dcf6149d83913e190f1a5a2491583391008; expires=Sat, 04-Apr-20 06:50:08 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"data":{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"}}
+
+12:19:32.869 request:
+1 > GET https://reqres.in/api/users/9
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_121)
+
+12:19:33.028 response time in milliseconds: 158.83
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 5384
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 56f1e6ae7f29aa78-SIN
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 05 Mar 2020 06:50:09 GMT
+1 < Etag: W/"a8-ZKNfxWIX7BDVVu9ee6KJtBp/SjU"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d9af22bf26aa721d5c4d1b52bffd7c9e51583391009; expires=Sat, 04-Apr-20 06:50:09 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"data":{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"}}
+
+12:19:33.048 [print] First Name: Tracey
+arg": null,
+  "responseType": "json",
+  "responseHeaders": {
+    "Date": [
+      "Thu, 05 Mar 2020 06:48:06 GMT"
+    ],
+    "Content-Type": [
+      "application/json; charset=utf-8"
+    ],
+    "Transfer-Encoding": [
+      "chunked"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Set-Cookie": [
+      "__cfduid=daa09b1438cfe16eaa703902c176524141583390886; expires=Sat, 04-Apr-20 06:48:06 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure"
+    ],
+    "X-Powered-By": [
+      "Express"
+    ],
+    "Access-Control-Allow-Origin": [
+      "*"
+    ],
+    "Etag": [
+      "W/\"a8-2etvg2pgu00w1ycpQpN4VMA5Yow\""
+    ],
+    "Via": [
+      "1.1 vegur"
+    ],
+    "Cache-Control": [
+      "max-age=14400"
+    ],
+    "CF-Cache-Status": [
+      "HIT"
+    ],
+    "Age": [
+      "2854"
+    ],
+    "Expect-CT": [
+      "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+    ],
+    "Vary": [
+      "Accept-Encoding"
+    ],
+    "Server": [
+      "cloudflare"
+    ],
+    "CF-RAY": [
+      "56f1e3b0df07a99a-SIN"
+    ]
+  },
+  "responseTime": 191,
+  "response": {
+    "data": {
+      "last_name": "Ramos",
+      "id": 6,
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg",
+      "first_name": "Tracey",
+      "email": "tracey.ramos@reqres.in"
+    }
+  },
+  "expResponse": [
+    {
+      "data": {
+        "id": 9,
+        "email": "tobias.funke@reqres.in",
+        "first_name": "Tobias",
+        "last_name": "Funke",
+        "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"
+      }
+    },
+    {
+      "data": {
+        "id": 6,
+        "email": "tracey.ramos@reqres.in",
+        "first_name": "Tracey",
+        "last_name": "Ramos",
+        "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"
+      }
+    }
+  ],
+  "requestTimeStamp": 1583390850347,
+  "responseStatus": 200,
+  "__loop": -1,
+  "responseCookies": {
+    "__cfduid": {
+      "name": "__cfduid",
+      "value": "daa09b1438cfe16eaa703902c176524141583390886",
+      "domain": "reqres.in",
+      "path": "/",
+      "expires": "1585982886000",
+      "persistent": "true",
+      "secure": "true"
+    }
+  }
+}
+
+     "56f1e238b97ac34a-SIN"
+    ]
+  },
+  "responseTime": 274,
+  "response": {
+    "data": {
+      "last_name": "Ramos",
+      "id": 6,
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg",
+      "first_name": "Tracey",
+      "email": "tracey.ramos@reqres.in"
+    }
+  },
+  "expResponse": [
+    {
+      "data": {
+        "id": 9,
+        "email": "tobias.funke@reqres.in",
+        "first_name": "Tobias",
+        "last_name": "Funke",
+        "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"
+      }
+    },
+    {
+      "data": {
+        "id": 6,
+        "email": "tracey.ramos@reqres.in",
+        "first_name": "Tracey",
+        "last_name": "Ramos",
+        "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"
+      }
+    }
+  ],
+  "requestTimeStamp": 1583390790081,
+  "responseStatus": 200,
+  "__loop": -1,
+  "responseCookies": {
+    "__cfduid": {
+      "name": "__cfduid",
+      "value": "d69c2708a960078a9e57ca82ff43665911583390826",
+      "domain": "reqres.in",
+      "path": "/",
+      "expires": "1585982826000",
+      "persistent": "true",
+      "secure": "true"
+    }
+  }
+}
+
+"1585981644000",
+      "persistent": "true",
+      "secure": "true"
+    }
+  }
+}
+
+Name":"Abraham","email":"neque@interdumfeugiat.net","programme":"Disaster Management","courses":["Disaster Preparedness"]},{"id":37,"firstName":"Kieran","lastName":"Ross","email":"magnis.dis.parturient@laciniaorci.edu","programme":"Disaster Management","courses":["Disaster Preparedness"]},{"id":38,"firstName":"Noah","lastName":"Merrill","email":"et@ipsum.net","programme":"Medicine","courses":["Anatomy","Biochemistry","Genetics","Human Behavior."]},{"id":39,"firstName":"Peter","lastName":"Noble","email":"turpis@sagittisplaceratCras.ca","programme":"Computer Science","courses":["Calculus","Algorithms","Software Development","Ethics"]},{"id":40,"firstName":"Axel","lastName":"Bradley","email":"ridiculus.mus@tempus.net","programme":"Mechanical Engineering","courses":["Machine Element Design","Engineering Analysis I","Calculus & Linear Algebra I "]},{"id":41,"firstName":"Hashim","lastName":"Chancellor","email":"at.pretium@eleifendvitae.net","programme":"Medicine","courses":["Anatomy","Biochemistry","Genetics","Human Behavior."]},{"id":42,"firstName":"Alan","lastName":"Connor","email":"vel.turpis.Aliquam@metus.org","programme":"Mechanical Engineering","courses":["Machine Element Design","Engineering Analysis I","Calculus & Linear Algebra I "]},{"id":43,"firstName":"Abel","lastName":"Rudyard","email":"orci.luctus.et@posuere.com","programme":"Computer Science","courses":["Calculus","Algorithms","Software Development","Ethics"]},{"id":44,"firstName":"Cedric","lastName":"Zeus","email":"Quisque.tincidunt@nullaanteiaculis.co.uk","programme":"Law","courses":["Criminal Law","Constitutional Law","Property Law","Contracts"]},{"id":45,"firstName":"Boris","lastName":"Kato","email":"dictum@tortorInteger.org","programme":"Medicine","courses":["Anatomy","Biochemistry","Genetics","Human Behavior."]},{"id":46,"firstName":"Walter","lastName":"Phelan","email":"diam@nectellusNunc.edu","programme":"Law","courses":["Criminal Law","Constitutional Law","Property Law","Contracts"]},{"id":47,"firstName":"Preston","lastName":"Branden","email":"sagittis.semper@urnaNullam.net","programme":"Criminology","courses":["Criminal Mind","Gender, Crime and Justice ","Philosophy of Law "]},{"id":48,"firstName":"Kane","lastName":"Alec","email":"dignissim.Maecenas.ornare@adui.edu","programme":"Law","courses":["Criminal Law","Constitutional Law","Property Law","Contracts"]},{"id":49,"firstName":"Igor","lastName":"Ezra","email":"cursus.non.egestas@laciniaorci.net","programme":"Criminology","courses":["Criminal Mind","Gender, Crime and Justice ","Philosophy of Law "]},{"id":50,"firstName":"Yoshio","lastName":"Kato","email":"Vivamus.rhoncus@semutcursus.ca","programme":"Disaster Management","courses":["Disaster Preparedness"]},{"id":51,"firstName":"Fletcher","lastName":"Vance","email":"orci.lacus@hendreritDonecporttitor.net","programme":"Computer Science","courses":["Calculus","Algorithms","Software Development","Ethics"]},{"id":52,"firstName":"Burton","lastName":"Merrill","email":"mauris@malesuada.ca","programme":"Law","courses":["Criminal Law","Constitutional Law","Property Law","Contracts"]},{"id":53,"firstName":"Rafael","lastName":"Vladimir","email":"mauris.ipsum.porta@sit.ca","programme":"Law","courses":["Criminal Law","Constitutional Law","Property Law","Contracts"]},{"id":54,"firstName":"Dolan","lastName":"Hyatt","email":"augue.malesuada@Pellentesqueut.net","programme":"Computer Science","courses":["Calculus","Algorithms","Software Development","Ethics"]},{"id":55,"firstName":"Driscoll","lastName":"Russell","email":"Lorem.ipsum.dolor@eu.co.uk","programme":"Computer Science","courses":["Calculus","Algorithms","Software Development","Ethics"]},{"id":56,"firstName":"Boris","lastName":"Dexter","email":"purus@mollis.co.uk","programme":"Law","courses":["Criminal Law","Constitutional Law","Property Law","Contracts"]},{"id":57,"firstName":"Maxwell","lastName":"Tarik","email":"pharetra.Quisque.ac@facilisisSuspendisse.edu","programme":"Criminology","courses":["Criminal Mind","Gender, Crime and Justice ","Philosophy of Law "]},{"id":58,"firstName":"Nero","lastName":"Ulysses","email":"inceptos.hymenaeos.Mauris@Proin.edu","programme":"Financial Analysis","courses":["Accounting","Statistics"]},{"id":59,"firstName":"Chase","lastName":"Laith","email":"ridiculus.mus.Donec@netus.org","programme":"Mechanical Engineering","courses":["Machine Element Design","Engineering Analysis I","Calculus & Linear Algebra I "]},{"id":60,"firstName":"Dominic","lastName":"Malcolm","email":"mi.felis.adipiscing@liberoettristique.edu","programme":"Criminology","courses":["Criminal Mind","Gender, Crime and Justice ","Philosophy of Law "]},{"id":61,"firstName":"Ross","lastName":"Hedley","email":"Ut.tincidunt.vehicula@nuncidenim.edu","programme":"Criminology","courses":["Criminal Mind","Gender, Crime and Justice ","Philosophy of Law "]},{"id":62,"firstName":"Abel","lastName":"Garrett","email":"rhoncus@sociisnatoquepenatibus.ca","programme":"Financial Analysis","courses":["Accounting","Statistics"]},{"id":63,"firstName":"Nero","lastName":"Clarke","email":"eget.metus.In@disparturientmontes.org","programme":"Computer Science","courses":["Calculus","Algorithms","Software Development","Ethics"]},{"id":64,"firstName":"Thane","lastName":"Carl","email":"ut.nulla@netuset.co.uk","programme":"Criminology","courses":["Criminal Mind","Gender, Crime and Justice ","Philosophy of Law "]},{"id":65,"firstName":"Jerome","lastName":"Jackson","email":"ac.turpis@facilisislorem.net","programme":"Computer Science","courses":["Calculus","Algorithms","Software Development","Ethics"]},{"id":66,"firstName":"Tate","lastName":"Martin","email":"ante.blandit@semeget.org","programme":"Law","courses":["Criminal Law","Constitutional Law","Property Law","Contracts"]},{"id":67,"firstName":"Caldwell","lastName":"Daniel","email":"lobortis@nequevenenatislacus.net","programme":"Medicine","courses":["Anatomy","Biochemistry","Genetics","Human Behavior."]},{"id":68,"firstName":"Lucian","lastName":"Holmes","email":"Cras@lorem.org","programme":"Medicine","courses":["Anatomy","Biochemistry","Genetics","Human Behavior."]},{"id":69,"firstName":"Akeem","lastName":"Herrod","email":"vel.venenatis@Nullamvelit.com","programme":"Disaster Management","courses":["Disaster Preparedness"]},{"id":70,"firstName":"Vance","lastName":"Colin","email":"quam.vel.sapien@vellectusCum.org","programme":"Disaster Management","courses":["Disaster Preparedness"]},{"id":71,"firstName":"Austin","lastName":"Jelani","email":"Nulla@nuncid.net","programme":"Medicine","courses":["Anatomy","Biochemistry","Genetics","Human Behavior."]},{"id":72,"firstName":"Jackson","lastName":"Honorato","email":"In@vestibulumlorem.com","programme":"Criminology","courses":["Criminal Mind","Gender, Crime and Justice ","Philosophy of Law "]},{"id":73,"firstName":"Lee","lastName":"Acton","email":"rutrum@mattis.org","programme":"Mechanical Engineering","courses":["Machine Element Design","Engineering Analysis I","Calculus & Linear Algebra I "]},{"id":74,"firstName":"Aquila","lastName":"Sylvester","email":"Aliquam.ultrices.iaculis@duiquisaccumsan.co.uk","programme":"Criminology","courses":["Criminal Mind","Gender, Crime and Justice ","Philosophy of Law "]},{"id":75,"firstName":"Baker","lastName":"Cairo","email":"fermentum@diam.com","programme":"Financial Analysis","courses":["Accounting","Statistics"]},{"id":76,"firstName":"Samuel","lastName":"Kibo","email":"semper@enimcommodohendrerit.co.uk","programme":"Criminology","courses":["Criminal Mind","Gender, Crime and Justice ","Philosophy of Law "]},{"id":77,"firstName":"Byron","lastName":"Warren","email":"enim.Etiam.imperdiet@sitamet.ca","programme":"Mechanical Engineering","courses":["Machine Element Design","Engineering Analysis I","Calculus & Linear Algebra I "]},{"id":78,"firstName":"Declan","lastName":"Barclay","email":"Proin.nisl.sem@Aliquamnecenim.org","programme":"Mechanical Engineering","courses":["Machine Element Design","Engineering Analysis I","Calculus & Linear Algebra I "]},{"id":79,"firstName":"Robert","lastName":"Cullen","email":"in.dolor@pede.co.uk","programme":"Disaster Management","courses":["Disaster Preparedness"]},{"id":80,"firstName":"Troy","lastName":"Simon","email":"Cras.vulputate.velit@ornare.org","programme":"Criminology","courses":["Criminal Mind","Gender, Crime and Justice ","Philosophy of Law "]},{"id":81,"firstName":"Tiger","lastName":"Wylie","email":"risus.quis.diam@Proin.ca","programme":"Disaster Management","courses":["Disaster Preparedness"]},{"id":82,"firstName":"Herrod","lastName":"Adam","email":"hendrerit.neque@a.co.uk","programme":"Medicine","courses":["Anatomy","Biochemistry","Genetics","Human Behavior."]},{"id":83,"firstName":"Yuli","lastName":"Griffin","email":"ipsum.non@vitae.co.uk","programme":"Criminology","courses":["Criminal Mind","Gender, Crime and Justice ","Philosophy of Law "]},{"id":84,"firstName":"Chancellor","lastName":"Ali","email":"ultrices@Nullam.net","programme":"Medicine","courses":["Anatomy","Biochemistry","Genetics","Human Behavior."]},{"id":85,"firstName":"Charles","lastName":"Randall","email":"ipsum.porta.elit@morbitristique.net","programme":"Law","courses":["Criminal Law","Constitutional Law","Property Law","Contracts"]},{"id":86,"firstName":"Lucius","lastName":"Gage","email":"auctor.vitae.aliquet@parturient.org","programme":"Disaster Management","courses":["Disaster Preparedness"]},{"id":87,"firstName":"Richard","lastName":"Dane","email":"Nulla.eget@musDonecdignissim.co.uk","programme":"Mechanical Engineering","courses":["Machine Element Design","Engineering Analysis I","Calculus & Linear Algebra I "]},{"id":88,"firstName":"Addison","lastName":"Jermaine","email":"est.Mauris@et.co.uk","programme":"Disaster Management","courses":["Disaster Preparedness"]},{"id":89,"firstName":"Acton","lastName":"Elliott","email":"sem.eget@posuerecubiliaCurae.ca","programme":"Medicine","courses":["Anatomy","Biochemistry","Genetics","Human Behavior."]},{"id":90,"firstName":"Channing","lastName":"Howard","email":"est.congue@velit.com","programme":"Medicine","courses":["Anatomy","Biochemistry","Genetics","Human Behavior."]},{"id":91,"firstName":"Darius","lastName":"Nehru","email":"risus.varius.orci@sitamet.edu","programme":"Medicine","courses":["Anatomy","Biochemistry","Genetics","Human Behavior."]},{"id":92,"firstName":"Walter","lastName":"Arsenio","email":"a.ultricies@duiFusce.edu","programme":"Financial Analysis","courses":["Accounting","Statistics"]},{"id":93,"firstName":"Dieter","lastName":"Matthew","email":"a@pretium.ca","programme":"Mechanical Engineering","courses":["Machine Element Design","Engineering Analysis I","Calculus & Linear Algebra I "]},{"id":94,"firstName":"Evan","lastName":"Yoshio","email":"sapien.gravida.non@noncursus.com","programme":"Financial Analysis","courses":["Accounting","Statistics"]},{"id":95,"firstName":"Hamilton","lastName":"Dennis","email":"luctus.lobortis@nonbibendumsed.com","programme":"Mechanical Engineering","courses":["Machine Element Design","Engineering Analysis I","Calculus & Linear Algebra I "]},{"id":96,"firstName":"Gavin","lastName":"Driscoll","email":"lacinia.mattis@risusDonec.net","programme":"Medicine","courses":["Anatomy","Biochemistry","Genetics","Human Behavior."]},{"id":97,"firstName":"Brendan","lastName":"Allistair","email":"Nunc.laoreet@Sed.ca","programme":"Computer Science","courses":["Calculus","Algorithms","Software Development","Ethics"]},{"id":98,"firstName":"Gary","lastName":"Robert","email":"molestie@vitaesemper.ca","programme":"Computer Science","courses":["Calculus","Algorithms","Software Development","Ethics"]},{"id":99,"firstName":"Fletcher","lastName":"Brenden","email":"semper@nequesed.co.uk","programme":"Computer Science","courses":["Calculus","Algorithms","Software Development","Ethics"]},{"id":100,"firstName":"Oscar","lastName":"Barclay","email":"non.ante.bibendum@risusDonecegestas.edu","programme":"Mechanical Engineering","courses":["Machine Element Design","Engineering Analysis I","Calculus & Linear Algebra I "]}]
+

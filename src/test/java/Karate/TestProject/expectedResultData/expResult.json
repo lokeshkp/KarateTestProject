@@ -1,0 +1,20 @@
+[
+	{
+		"data": {
+			"id": 9,
+			"email": "tobias.funke@reqres.in",
+			"first_name": "Tobias",
+			"last_name": "Funke",
+			"avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"
+		}
+	},
+	{
+		"data": {
+			"id": 6,
+			"email": "tracey.ramos@reqres.in",
+			"first_name": "Tracey",
+			"last_name": "Ramos",
+			"avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"
+		}
+	}
+]
