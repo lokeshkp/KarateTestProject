@@ -1,7 +1,8 @@
+@ignore
 Feature: User Details
 
 Background:
-	* def expResponse = read('../expectedResultData/expResult.json')
+	* def expResponse = read('../jsonData/expResult.json')
 	# * def firstUserDetails = read('userDetails1.feature')
 	# * def firstFeatureResult = call firstUserDetails
 	* def firstFeatureResult = call read('userDetails1.feature')
