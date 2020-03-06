@@ -3,6 +3,7 @@ Feature: User Details
 
 Background:
 	* def expResponse = read('../jsonData/expResult.json')
+	* url 'https://reqres.in/api/users'
 	
 	* def sleep =
 	"""
@@ -14,8 +15,7 @@ Background:
 	"""
 	
 	Scenario: request user 6 details
-	 request user 6 details
-		Given url 'https://reqres.in/api/users/6'
+		Given path 6
 		When method GET
 		Then status 200
 		Then print response
@@ -24,7 +24,7 @@ Background:
 	
 	@parallel=false
 	Scenario: request user 3 details
-		Given url 'https://reqres.in/api/users/3'
+		Given path 3
 		When method GET
 		Then status 200
 		Then print response

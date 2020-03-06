@@ -14,8 +14,8 @@ import net.masterthought.cucumber.ReportBuilder;
 import org.apache.commons.io.FileUtils;
 import org.junit.Test;
 
-//@RunWith(Karate.class)
-@KarateOptions(tags= {"~@ignore"})   //--> to ignore userDetails.feature
+//@RunWith(Karate.class)   				//--> it's for junit-4
+@KarateOptions(tags= {"~@ignore"})   	//--> to ignore feature file i.e userDetails1.feature
 public class KarateTestRunner {
 
 	@Test
