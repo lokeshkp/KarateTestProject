@@ -1,0 +1,5 @@
+id,firstName,lastName,email,programme,course
+101,Lokesh,Kondepudi,kplokesh@gmail.com,Selenium,"[Java,JavaScript]"
+102,Pavani,Kondepudi,kppavani@gmail.com,Cypress,"[TypeScript,JavaScript]"
+103,Dileep,Kondepudi,kpdileep@gmail.com,AI,"[Java,Python]"
+104,SaiKarthikeya,Kondepudi,kpsai@gmail.com,BigData,"[CSharp,Pyhton]"
