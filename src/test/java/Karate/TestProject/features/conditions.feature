@@ -1,3 +1,4 @@
+@ignore
 Feature: Conditions in Karate
 
 	Background:

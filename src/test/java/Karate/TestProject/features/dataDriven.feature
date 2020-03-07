@@ -1,3 +1,4 @@
+@ignore
 Feature: Data Driven Test
 
   Background: 
