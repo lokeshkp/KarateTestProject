@@ -3,6 +3,7 @@ package Karate.TestProject.features;
 import static org.junit.Assert.*;
 
 import com.intuit.karate.KarateOptions;
+import com.intuit.karate.junit5.Karate;
 import com.intuit.karate.Results;
 import com.intuit.karate.Runner;
 import java.io.File;
@@ -19,7 +20,7 @@ import org.junit.Test;
 public class KarateTestRunner {
 
 	@Test
-	public void testParallel() {
+	public void executeTest() {
 		Results results = Runner.parallel(getClass(),3);
 		generateReport(results.getReportDir());
 		assertTrue(results.getErrorMessages(), results.getFailCount() == 0);        

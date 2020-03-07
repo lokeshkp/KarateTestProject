@@ -1,4 +1,3 @@
-@ignore
 Feature: Create a new User
 
 	Background:
